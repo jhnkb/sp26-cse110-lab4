@@ -20,27 +20,30 @@
 
 11. [50, 100, 150], [50, 100, 150], because the loop goes through each price, calculates price * (1 - discount), and pushes the result into the discounted array. There is no error since discounted and length are declared outside the loop and are accessible inside it, while i and discountedPrice are block-scoped and only used within the loop.
 
-12. A. student.name
-B. student["Grad Year"]
-C. student.greeting()
-D. student["Favorite Teacher"].name
-E. student.courseLoad[0]
+12.  
+- A. student.name  
+- B. student["Grad Year"]  
+- C. student.greeting()  
+- D. student["Favorite Teacher"].name  
+- E. student.courseLoad[0]  
 
-13. A. 32, + with a string will be a concatenation
-B. 1, - forces a '3' to be a numeric type = numeric conversion
-C. 3, null = 0
-D. 3null, + with a string will be a concatenation
-E. 4, true = 1 so 1 + 3 = 4
-F. 0, false = null = 0
-G. 3undefined, + with a string will be a concatenation
-H. NaN, undefined is missing value = NaN so 3 minus a NaN is NaN
+13.  
+- A. 32, + with a string will be a concatenation  
+- B. 1, - forces a '3' to be a numeric type = numeric conversion  
+- C. 3, null = 0  
+- D. 3null, + with a string will be a concatenation  
+- E. 4, true = 1 so 1 + 3 = 4  
+- F. 0, false = null = 0  
+- G. 3undefined, + with a string will be a concatenation  
+- H. NaN, undefined is missing value = NaN so 3 minus a NaN is NaN  
 
-14. A. true, string '2' becomes a number 2
-B. false, both strings 2 is greater than 1
-C. true, '2' becomes a number 2, so equal
-D. true , checks type and value and they are the same so true
-E. false, true = 1 so its not equal
-F. true, Boolean(2) is true because any non zero in Boolean() is true
+14.  
+- A. true, string '2' becomes a number 2  
+- B. false, both strings 2 is greater than 1  
+- C. true, '2' becomes a number 2, so equal  
+- D. true , checks type and value and they are the same so true  
+- E. false, true = 1 so its not equal  
+- F. true, Boolean(2) is true because any non zero in Boolean() is true  
 
 15.  == checks for the value only, while === checks for both value and data type
 
